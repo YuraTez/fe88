@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1200px;
+
+  padding: 0 15px;
+  margin: 0 auto;
+
+}
+.section{
+  padding: 100px 0;
+  border: 2px solid silver;
+/*  background-image: url("../assets/img/19-Domaine_1000_d_850.jpg");*/
+  background: url("../assets/img/vtor (2).svg"), url("../assets/img/19-Domaine_1000_d_850.jpg");
+  background-repeat: no-repeat;
+  /*background-repeat: repeat-y;*/
+  /*background-position: 10% 50%;*/
+ /* background-position: right bottom;*/
+  background-position:  90% 10%, center;
+  /*background-size: contain;*/
+ /* background-size: cover;*/
+ /* background-attachment: fixed;*/
+  background-size:  50px 50px, contain;
+  background-attachment: fixed ,scroll;
+}
+
+.first{
+  background: red;
+}
+
+
+p{
+  margin-top: 50px;
+  text-transform: capitalize;
+  /*text-transform: lowercase;*/
+  /*text-transform: uppercase;*/
+  text-decoration: underline;
+  letter-spacing: 0.1px;
+  color: white;
+}
+
+.float{
+  padding: 100px 50px;
+  background: wheat;
+}
+.float__item{
+  display: inline-block;
+  padding: 50px;
+  border: 2px solid silver;
+}
