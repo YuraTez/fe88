@@ -16,20 +16,62 @@
     <form action="#" name="my-form" method="get" id="form">
         <label for="name">
             Name
-        </label>
+        </label><br>
         <input type="text" required value="123" id="name"> <br>
         <label for="2">last name
             <input type="text" placeholder="first name" id="2" required>
-        </label>
+        </label><br>
 
-        <input type="password">
-        <input type="email" placeholder="email" required>
-        <input type="tel">
-        <textarea  cols="30" rows="10"></textarea>
+        <input type="password"><br>
+        <input type="email" placeholder="email" required><br>
+        <input type="tel"><br>
+        <textarea  cols="30" rows="10"></textarea><br>
+
+        <label for="right">
+            <input type="checkbox" value="1" checked id="right">Right<br>
+        </label>
+        <label for="left">
+            <input type="checkbox" value="2" id="left" required>Left<br>
+        </label>
+        <label for="left-2">
+            <input type="radio" value="2" id="left-2" name="stor" required >Left
+        </label><br>
+        <label for="right-2">
+            <input type="radio" value="2" id="right-2" name="stor">Left
+        </label><br>
+
+        <input type="file"><br>
+        <input type="date" min="2022-10-15" max="2022-10-18"><br>
+        <input type="time"><br>
+        <input type="color"><br>
+        <input type="range" min="0" max="100" value="10"><br>
+        <input type="range" min="0" max="70" value="10"><br>
+
+        <select name="" id=""   multiple size="4">
+            <option value="1">Red</option>
+            <option value="2">white</option>
+            <option value="3">green</option>
+            <option value="4" selected>black</option>
+            <option value="1" >Red</option>
+            <option value="2">white</option>
+            <option value="3">green</option>
+            <option value="4" >black</option>
+            <option value="1" >Red</option>
+            <option value="2">white</option>
+            <option value="3">green</option>
+            <option value="4">black</option>
+        </select><br>
+
         <button type="submit">click</button>
+        <br>
+        <button type="reset">reset</button>
+        <br>
+        <button type="button">btn</button>
     </form>
 
     <input type="text" placeholder="first name" form="form" required>
+
+
 </div>
 
 
@@ -149,6 +191,38 @@
 -->
 
 
+<details class="custom-select">
+    <summary class="radios">
+        <input type="radio" name="item" id="default" title="Auswählen..." checked>
+        <input type="radio" name="item" id="item1" title="Item 1">
+        <input type="radio" name="item" id="item2" title="Item 2">
+        <input type="radio" name="item" id="item3" title="Item 3">
+        <input type="radio" name="item" id="item4" title="Item 4">
+        <input type="radio" name="item" id="item5" title="Item 5">
+    </summary>
+    <ul class="list">
+        <li>
+            <label for="item1">
+                Item 1
+                <span></span>
+            </label>
+        </li>
+        <li>
+            <label for="item2">Item 2</label>
+        </li>
+        <li>
+            <label for="item3">Item 3</label>
+        </li>
+        <li>
+            <label for="item4">Item 4</label>
+        </li>
+        <li>
+            <label for="item5">Item 5</label>
+        </li>
+    </ul>
+</details>
 
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
