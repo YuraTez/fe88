@@ -1,0 +1,27 @@
+@import "header/header";
+
+
+.list{
+  display: flex;
+  &__item{
+    text-decoration: none;
+    padding: 10px;
+    &__link{
+      color: coral;
+
+      &:hover{
+        color: grey;
+      }
+      &:before{
+        content: "";
+      }
+    }
+  :hover{
+    padding: 30px;
+  }
+  }
+}
+
+
+
+

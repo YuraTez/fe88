@@ -1,0 +1,27 @@
+.list {
+  color: red;
+  display: flex;
+}
+
+.list__item {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.list__item__link {
+  color: coral;
+}
+
+.list__item__link:hover {
+  color: gray;
+}
+
+.list__item__link:before {
+  content: "";
+}
+
+.list__item :hover {
+  padding: 30px;
+}
+
+/*# sourceMappingURL=index.da533f7e.css.map */
