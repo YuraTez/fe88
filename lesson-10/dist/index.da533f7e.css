@@ -1,19 +1,28 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap";
 .list {
-  color: red;
+  color: #ec7d79;
+  justify-content: space-between;
+  transition: all .3s;
   display: flex;
 }
 
+html {
+  font-family: Open Sans, sans-serif;
+}
+
 .list__item {
+  background: #212121;
   padding: 10px;
   text-decoration: none;
 }
 
 .list__item__link {
   color: coral;
+  font-size: 1.2rem;
 }
 
 .list__item__link:hover {
-  color: gray;
+  color: #ec7d79;
 }
 
 .list__item__link:before {
@@ -22,6 +31,33 @@
 
 .list__item :hover {
   padding: 30px;
+}
+
+.cart p {
+  color: #ec7d79;
+  background: #86878b;
+  font-size: 1.1rem;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-list {
+  justify-content: space-between;
+  display: flex;
+}
+
+.card-list-item {
+  width: 30%;
+  height: 200px;
+  background: #86878b;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.da533f7e.css.map */

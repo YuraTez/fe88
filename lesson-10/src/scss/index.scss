@@ -1,16 +1,23 @@
+@import "variables";
+@import "fonts";
 @import "header/header";
+@import "mixsins/card";
 
+html{
+  font-family: 'Open Sans', sans-serif;
+}
 
 .list{
-  display: flex;
+
   &__item{
     text-decoration: none;
     padding: 10px;
+    background: $black;
     &__link{
       color: coral;
-
+      font-size: $h_20;
       &:hover{
-        color: grey;
+        color: $red;
       }
       &:before{
         content: "";
@@ -23,5 +30,25 @@
 }
 
 
+.cart{
+  p{
+    font-size: $h_18;
+    color: $red;
+    background: $grey;
+  }
+}
 
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-list-item{
+  @include card;
+}
 
